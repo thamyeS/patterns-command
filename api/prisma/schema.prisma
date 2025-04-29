@@ -1,0 +1,33 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // ou "mysql", "postgresql", etc.
+  url      = "file:./dev.db"
+}
+
+model Usuario {
+  id        Int       @id @default(autoincrement())
+  nome      String
+  comandos  Comando[]
+}
+
+model Luz {
+  id        Int       @id @default(autoincrement())
+  nome      String
+  estado    Boolean   @default(false) // false = desligada, true = ligada
+  comandos  Comando[]
+}
+
+model Comando {
+  id         Int       @id @default(autoincrement())
+  tipo       String    // "ligar" ou "desligar"
+  criadoEm   DateTime  @default(now())
+  usuarioId  Int
+  luzId      Int
+  desfazido  Boolean   @default(false)
+
+  usuario    Usuario   @relation(fields: [usuarioId], references: [id])
+  luz        Luz       @relation(fields: [luzId], references: [id])
+}
