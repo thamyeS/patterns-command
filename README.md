@@ -3,7 +3,7 @@
 - Command(Comportamento)
 
 ## Slide apresentação
-[[Ver apresentação no Canva](https://link-da-imagem-do-slide.jpg)](https://www.canva.com/design/DAGmCYrtTXs/vNsn56iSsywoRA-ER0ilqQ/edit?...)
+[![Ver apresentação no Canva](https://link-da-imagem-do-slide.jpg)](https://www.canva.com/design/DAGmCYrtTXs/vNsn56iSsywoRA-ER0ilqQ/edit?...)
 
 
 ## Diagrama de classes para o exemplo a seguir
