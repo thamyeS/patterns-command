@@ -2,6 +2,10 @@
 # Design Patterns
 - Command(Comportamento)
 
+## Slide apresentação
+![](./docs/Apresentação_Patterns_Command.pdf)
+
+
 ## Diagrama de classes para o exemplo a seguir
 ![](./docs/der.jpeg)
 
