@@ -18,7 +18,7 @@ const create = async (req, res) => {
 const read = async (req, res) => {
     try {
         const luzes = await prisma.luz.findMany({
-            include: { comandos: true }
+            include: { comandos: true } 
         });
         res.json(luzes);
     } catch (e) {
