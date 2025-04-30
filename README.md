@@ -3,8 +3,7 @@
 - Command(Comportamento)
 
 ## Slide apresentação
-[![Ver apresentação no Canva](https://link-da-imagem-do-slide.jpg)](https://www.canva.com/design/DAGmCYrtTXs/vNsn56iSsywoRA-ER0ilqQ/edit?...)
-
+[Clique aqui para ver a apresentação no Canva](https://www.canva.com/design/DAGmCYrtTXs/vNsn56iSsywoRA-ER0ilqQ/edit?utm_content=DAGmCYrtTXs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## Diagrama de classes para o exemplo a seguir
 ![](./docs/der.jpeg)
